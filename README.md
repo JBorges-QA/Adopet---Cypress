@@ -27,5 +27,5 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/adopet-e2e-tests.git
+   git clone https://github.com/JBorges-QA/adopet-e2e-tests.git
    cd adopet-e2e-tests
