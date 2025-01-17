@@ -56,7 +56,7 @@ O sistema deve carregar as páginas "mensagens" e "home" corretamente ao clicar 
 
 Funcionalidade: Login
 
-Cenário: Realizar login com sucesso
+Cenário: Realizar login com sucesso e clica no botão
 
 Passos:
 
@@ -72,3 +72,13 @@ O usuário clica em "Entrar"
 
 Resultados Esperados:
 O sistema deve carregar a paginal principal com o usuário logado.
+
+--------------------------------------------------------------------------------------------------
+
+Funcionalidade: /home
+
+Cenário: Acessar o diretório "/home" e clicar no botão "Falar com responsável"
+
+O usuário acessa o diretório /home
+
+O Usuário clica no botão "Falar com o responsável" do primeiro card;
