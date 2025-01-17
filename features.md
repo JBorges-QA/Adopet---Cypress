@@ -82,3 +82,6 @@ Cenário: Acessar o diretório "/home" e clicar no botão "Falar com responsáve
 O usuário acessa o diretório /home
 
 O Usuário clica no botão "Falar com o responsável" do primeiro card;
+
+Resultados Esperados:
+O sistema deve carregar o diretório /home e permitir o clique no botão.
