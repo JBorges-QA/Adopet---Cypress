@@ -43,3 +43,7 @@ cypress/plugins/index.js
 *.swo
 *.bak
 *.tmp
+
+
+# Arquivo com Implementações
+implementar.md
