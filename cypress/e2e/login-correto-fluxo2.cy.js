@@ -3,8 +3,7 @@ describe('Login', () =>{
       // Acessando página inicial
       cy.visit('https://adopet-tau.vercel.app');
 
-      // Clicando no botão de login
-      cy.contains('a', 'Fazer login').click()
+      cy.get('[class="header__message"]').click();
     })
   
     it('Deve preencher os campos do login corretamente e autenticar o usuário na página', () =>{  
