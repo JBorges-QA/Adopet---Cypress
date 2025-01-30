@@ -2,7 +2,15 @@ Cypress.Commands.add('login', (email, senha) => {
     cy.get('input[name="email"]').type(email);
     cy.get('input[name="password"]').type(senha);
     cy.contains('button', 'Entrar').click();
- })
+ });
+
+ Cypress.Commands.add('cadastro', (nome, email, senha) =>{
+    cy.get('#name').type(nome);
+    cy.get('#email').type(email);
+    cy.get('#pass-create').type(senha);
+    cy.get('#pass-confirm').type(senha);
+    cy.get('button[type="submit"]').contains('Cadastrar').click();
+ } )
 
 // ***********************************************
 // This example commands.js shows you how to
