@@ -17,4 +17,12 @@ describe('Home', () => {
     it('verificar se o title com o texto “AdoPet” está presente no html.', () => {
       cy.title().should('eq', 'AdoPet')
     })
+
+    it('Verificar se as imagens dos pets estão visiveis', () =>{
+
+      cy.get('div.cards img[src$=".png"]').each(($img) =>{
+        cy.wrap($img).should('be.visible');
+      })
+
+    })
   })
