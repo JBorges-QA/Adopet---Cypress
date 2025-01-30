@@ -47,3 +47,6 @@ cypress/plugins/index.js
 
 # Arquivo com Implementações
 implementar.md
+
+# Pasta de resultados
+/cypress/results
