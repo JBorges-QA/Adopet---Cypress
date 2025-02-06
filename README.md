@@ -4,7 +4,7 @@ Este projeto tem como principal objetivo a realização de testes End-to-End (E2
 
 ## 🚧 Status do Projeto
 
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ **20% Concluído**  
+🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜ **90% Concluído**  
 *(O projeto ainda está em fase inicial de desenvolvimento. Testes e funcionalidades serão adicionados gradualmente.)*
 
 ---
