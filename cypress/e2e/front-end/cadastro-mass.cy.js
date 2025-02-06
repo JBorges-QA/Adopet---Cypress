@@ -1,4 +1,4 @@
-import {usuarios} from '../fixtures/usuarios.json'
+import {usuarios} from '../../fixtures/usuarios.json'
 
 describe('Página de cadastro', ()=>{
     beforeEach(() =>{
